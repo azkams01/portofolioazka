@@ -26,6 +26,68 @@
 
   </head>
   <body>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+              aria-controls="main-navbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a class="navbar-brand text-dark" href="#">Azka Mulia Saputra</a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul
+              class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios"> Projects </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#portfolio">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
+
 
       <!-- Hero Area Start -->
       <div id="hero-area" class="hero-area-bg">
@@ -34,9 +96,8 @@
           <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
               <div class="contents">
-                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
                 <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Azka Mulia Saputra</h2>
-                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Junior Web Developer</p>
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s"> Web Developer</p>
                 <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                   <li>
                     <a class="instagram" href="https://www.instagram.com/azkamsptra_"><i class="icon-social-instagram"></i></a>
@@ -46,7 +107,7 @@
                   </li>
                 </ul>
                 <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                  <a href="#about" class="btn btn-common">Lihat detail nya yuk !</a>
+                  <a href="#about" class="btn btn-common">Learn more about me</a>
                 </div>
               </div>
             </div>
@@ -165,28 +226,21 @@
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
               <div class="portfolio-item">
                 <div class="shot-item">
-                  <img src="assets/img/about/proyek-2.png" alt=""/> 
+                  <a href="oi"><img src="assets/img/about/proyek-2.png" class="proyek-2" alt=""/></a>  
+                </div>               
+              </div>
+            </div>
+             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                 <img src="assets/img/about/proyek-5.png" class="proyek-5.png" alt=""/> 
                 </div>               
               </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
               <div class="portfolio-item">
                 <div class="shot-item">
-                  <img src="assets/img/about/sertifikat-1.jpg" alt=""/> 
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/about/proyek-3.png" alt="" /> 
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/about/proyek-4.png" alt="" /> 
+                  <img src="assets/img/about/sertifikat-1.jpg" class="sertifikat-1" alt=""/> 
                 </div>               
               </div>
             </div>
@@ -197,10 +251,96 @@
     </section>
     <!-- Portfolio Section Ends --> 
 
+<<<<<<< HEAD
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <h2>Contact Form</h2>
+              <form name="contact-form" style="border: 1px solid rgb(0,0,0,0.1); margin-top: 30px; padding: 10px;">
+                <div class="alert alert-success alertku alert-dismissible fade show d-none" role="alert">
+                  <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap</label>
+                  <input type="text" class="form-control" name="nama" id="nama" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Pesan</label>
+                  <textarea class="form-control" name="pesan" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-sm btn-primary btn-kirim">Kirim</button>
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+              </form>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2>Contact Address</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>Bandung, Jawa Barat, 40182</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p>
+                      <a href="#"
+                        >azkams01@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">+62 877 2578 8723</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+        <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+              <p>Copyright © 2022 Azka Mulia Saputra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    
+
+=======
+>>>>>>> fe5b234088b504ddc1d1549453106946ca623198
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
     	<i class="icon-arrow-up"></i>
     </a>
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-min.js"></script>
@@ -215,6 +355,24 @@
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwHdoVKyYqk56HwKlJ8TJOc23VgW8K9Rc5IJTRytUwHUQ1NDiYsMw55ygFevDaNqff-/exec'
+      const form = document.forms['contact-form']
+      // const btnKirim = document.querySelector('.btn-kirim')
+      // const btnLoading = document.querySelector('.btn-loading')
+      const myAlert = document.querySelector('.alertku')
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            myAlert.classList.remove('d-none')
+            form.reset()
+            console.log('Success!', response)
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
       
   </body>
 </html>
